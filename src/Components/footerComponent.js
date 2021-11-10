@@ -88,7 +88,7 @@ function Footer() {
                   <i className="fa fa-instagram fa-lg m-3" />
                 </a>
               </p>
-              <p className="text-white powered">&copy;&nbsp;SEDI RWANDA 2020&nbsp;|&nbsp;<a href="https://www.techenfold.com/" className="text-white">Powered by Techenfold</a></p>
+              <p className="text-white powered">&copy;&nbsp;SEDI RWANDA 2020&nbsp;|&nbsp;<a href="/" className="text-white">Powered by Avacode</a></p>
             </div>
           </Col>
         </Row>
