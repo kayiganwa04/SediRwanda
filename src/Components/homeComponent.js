@@ -76,7 +76,7 @@ class Home extends React.Component {
                     data-aos="zoom-in" data-aos-duration="2000"
                   >
                     
-                    Sports and Education Development Initiative
+                    Social and Education Development Initiative
                     
                     (SEDI RWANDA)
                   </h1>
