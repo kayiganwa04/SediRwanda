@@ -73,7 +73,7 @@ class Contact extends Component {
                         Location: Ndera Sector
                         <br />
                         Email: sedirwanda@gmail.com <br />
-                        call us on (+250)782892604
+                        call us on (+250)783 656 633
                         <br /> <a href="https://m.facebook.com/RwandaSEDI" className="text-white"><i className="fa fa-facebook fa-lg m-3" /></a>{" "}
                         <a href="/" className="text-white"> <i className="fa fa-twitter fa-lg m-3 " /></a>
                         {/* <a href="/" className="text-white"><i className="fa fa-linkedin fa-lg m-3" /></a>
