@@ -16,6 +16,7 @@ import Cooperative from "./Cooperative";
 import Fundraise from "./fundraise";
 import Compaign from "./compaign";
 import Donate from "./donate";
+import Gallery from "../pages/Gallery"
 // import Notfound from "./Notfound";
 AOS.init();
 
@@ -35,6 +36,7 @@ AOS.init();
             <Route path='/sports' component={()=> <Sanitation />} />
             <Route path='/history' component={()=> <History />}/>
             <Route exact path='/contact' component={() => <Contact  />} />       
+            <Route exact path='/gallery' component={() => <Gallery  />} />       
             <Route path='/fundraising' component={()=> <Fundraise />} />
             <Route path='/compaign' component={()=> <Compaign />} />
             <Route path='/donate' component={()=> <Donate />} />

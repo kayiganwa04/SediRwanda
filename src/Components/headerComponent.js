@@ -104,6 +104,12 @@ class Header extends Component {
                   </NavLink>
                 </NavItem>
 
+                <NavItem>
+                  <NavLink className="nav-link px-2 font-weight-bold" to="/gallery">
+                    GALLERY
+                  </NavLink>
+                </NavItem>
+
               </Nav>
               
               <Nav className="ml-auto " navbar>
