@@ -1,6 +1,6 @@
 import React from "react";
 import Header from './headerComponent';
-import { BrowserRouter as Router, Switch, Route, Redirect } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import Home from "./homeComponent";
 import Footer from "./footerComponent"
 import  OurWork  from "./OurWork";
@@ -24,24 +24,24 @@ AOS.init();
   render() {
     
     return (
-      <Router >
+      <Router>
         <Header/>
-          <Switch>
-            <Route path='/home' component={()=> <Home />} />
-            <Route path='/education' component={()=> <OurWork />} />
-            <Route path='/about' component={()=> <About /> }/>
-            <Route path='/team' component={()=> <Team/>} />
-            <Route path='/health-and-sanitation' component={()=> <Sport />} />
-            <Route path='/social-economic-integration' component={()=> <Cooperative />} />
-            <Route path='/sports' component={()=> <Sanitation />} />
-            <Route path='/history' component={()=> <History />}/>
-            <Route exact path='/contact' component={() => <Contact  />} />       
-            <Route exact path='/gallery' component={() => <Gallery  />} />       
-            <Route path='/fundraising' component={()=> <Fundraise />} />
-            <Route path='/compaign' component={()=> <Compaign />} />
-            <Route path='/donate' component={()=> <Donate />} />
-            <Redirect to='/home'/>
-          </Switch>
+        <Routes>
+          <Route path='/home' element={<Home />} />
+          <Route path='/education' element={<OurWork />} />
+          <Route path='/about' element={<About />} />
+          <Route path='/team' element={<Team />} />
+          <Route path='/health-and-sanitation' element={<Sport />} />
+          <Route path='/social-economic-integration' element={<Cooperative />} />
+          <Route path='/sports' element={<Sanitation />} />
+          <Route path='/history' element={<History />} />
+          <Route path='/contact' element={<Contact />} />       
+          <Route path='/gallery' element={<Gallery />} />       
+          <Route path='/fundraising' element={<Fundraise />} />
+          <Route path='/compaign' element={<Compaign />} />
+          <Route path='/donate' element={<Donate />} />
+          <Route path='*' element={<Navigate to='/home' replace />} />
+        </Routes>
         <Footer/>
       </Router>
     );

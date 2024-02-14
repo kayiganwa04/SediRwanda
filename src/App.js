@@ -7,11 +7,9 @@ class App extends React.Component{
   render() {
     return (
       // <Provider store={store}>
-     <BrowserRouter>
       <div >
         <MainPage />
       </div>
-     </BrowserRouter>
     // </Provider>
     );
   }
