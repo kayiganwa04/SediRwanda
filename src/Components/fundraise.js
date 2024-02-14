@@ -5,7 +5,7 @@ import {
   Row,
   Button,
 } from "reactstrap";
-import { Link } from "react-router-dom/cjs/react-router-dom";
+import { Link } from "react-router-dom";
 // import sponsor1 from "./../Images/sponsor1.jpg";
 // import sponsor2 from "./../Images/sponsor2.jpg";
 // import sponsor3 from "./../Images/sponsor3.jpg";
