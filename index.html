@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#144029" />
+    <meta
+      name="description"
+      content="SEDI Rwanda is a non-profit reaching the most vulnerable families around Kigali through education, health, social-economic integration and sport."
+    />
+    <meta property="og:title" content="SEDI Rwanda · Engage. Educate. Empower." />
+    <meta
+      property="og:description"
+      content="A non-profit helping the most vulnerable families around Kigali become actors of their own positive change."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="/og-image.jpg" />
+    <link rel="icon" href="/favicon.png" />
+    <link rel="apple-touch-icon" href="/favicon.png" />
+    <link rel="manifest" href="/manifest.json" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,500&family=Inter:wght@400;500;600;700&display=swap"
+    />
+    <title>SEDI Rwanda · Engage. Educate. Empower.</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+
+    <!-- Static copy of the contact form so Netlify Forms registers it at build time. -->
+    <form name="contact" netlify netlify-honeypot="bot-field" hidden>
+      <input type="text" name="name" />
+      <input type="email" name="email" />
+      <select name="subject"><option>General enquiry</option></select>
+      <textarea name="message"></textarea>
+    </form>
+
+    <script type="module" src="/src/index.jsx"></script>
+  </body>
+</html>
